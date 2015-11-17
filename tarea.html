@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta description="Esta es la desc de mi web, escrita con emmet.">
+
+  <style>
+    body {
+      padding: 0;
+      margin: 0 auto;
+      height: 100%;
+    }
+    header{
+      background-color: #00f;
+      margin: 0 auto;
+      width: 100%;
+      height: 70px;
+      padding: 0;
+    }
+    nav {
+      position: absolute;
+      width: 40%;
+      left: 40px;
+    }
+    nav ul {
+      margin-top: 25px;
+      padding: 0;
+      list-style: none;
+    }
+    nav li {
+      float: left;
+      margin-right: 5%;
+    }
+    a {
+      color: #fff;
+    }
+    a:visited {
+      color: yellow;
+    }
+    section{
+      float: left;
+      width: 50%;
+      height: 90vh;
+      margin: 0 auto;
+    }
+    .section-1 {
+      background-color: red;
+    }
+    .section-2 {
+      background-color: purple;
+    }
+    footer{
+      text-align: center;
+      background-color: #e1e1e1;
+      font-size: .8em;
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+    }
+    footer p{
+      font-size: 1.2em;
+      padding: 20px 0;
+    }
+    .logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: cyan;
+      float: left;
+      position: relative;
+      margin-right: 40px;
+      text-align: center;
+    }
+    .logo h1 {
+      font-size: 1em;
+      margin: 2.5em 0;
+    }
+  </style>
+</head>
+<body>
+  header>nav>.logo>ul>li*5>a[href="#"]{link$}^^^^^section+section+footer>p{este es mi footer}
+
+  <header>
+    <nav>
+      <div class="logo"><h1>Logo loco</h1></div>
+      <ul>
+        <li><a href="#">link1</a></li>
+        <li><a href="#">link2</a></li>
+        <li><a href="#">link3</a></li>
+        <li><a href="#">link4</a></li>
+        <li><a href="#">link5</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="section-1"></section>
+  <section class="section-2"></section>
+  <footer>
+    <p>Este es mi <code>STICKY</code> footer</p>
+  </footer>
+</body>
+</html>
