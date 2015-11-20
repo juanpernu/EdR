@@ -1,0 +1,44 @@
+
+  body {
+    font-size: 14px;
+    font-family: 'Lora', serif;
+  }
+  .contenedor {
+    width: 100%;
+    background: #000;
+  }
+  .contenedor div {
+    display: inline-block;
+    color: #fff
+  }
+  .opacidad {
+    background-color: red;
+    /*background-color: rgba(0, 0, 0, .7);*/
+    background-image: url(http://weknowyourdreams.com/images/cat/cat-04.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 450px;
+    opacity:1;
+    width: 500px;
+    height: 500px;
+  }
+​
+  .opacidad-1 {
+    background: #ff0 url(http://weknowyourdreams.com/images/cat/cat-04.jpg) no-repeat center;
+    background-size:cover;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+  }
+  .opacidad-2 {
+    background-position: center center;
+  }
+​
+  .rgba .opacidad {
+    width: 800px;
+    background-color: rgba(255,0,0,.5);
+  }
+  .no-rgba .opacidad {
+    width: 300px;
+    background-color: #f00;
+  }
